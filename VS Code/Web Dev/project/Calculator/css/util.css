@@ -1,0 +1,33 @@
+.text-center {
+    text-align: center;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.r-circle{
+    border-radius: 24px;
+    background-color: red;
+    color: white;
+}
+
+.t-c-red{
+    color: red;
+}

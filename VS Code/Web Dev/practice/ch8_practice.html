@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 8 -practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet"> 
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+
+        }
+        
+        header{
+            font-family: 'Rubik Marker Hatch', cursive;
+            text-align: center;
+            word-spacing: 10px;
+            font-size: 50px;
+        }
+        .sheild{
+            position: relative;
+            left: 47vw;
+            animation: rotate 1s linear infinite;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        @keyframes slider {
+            0%{
+                width: 0px;
+            }
+            50%{
+                width: 60vw;
+            }
+            100%{
+                width: 100vw;
+            }
+        }
+        @keyframes rotate{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        .slide{
+            background-color: red;
+            height: 2px;
+            animation: slider 0.6s linear 0s 1 normal;
+
+        }
+        .box1{
+            transform: translate(0vw);
+        }
+        .box2{
+            transform: translate(0vw);
+        }
+        .box3{
+            transform: translate(0vw);
+        }
+        .box4{
+            transform: translate(0vw);
+        }
+        .box5{
+            transform: translate(0vw);
+        }
+        .box6{
+            transform: translate(0vw);
+        }
+    </style>
+</head>
+<body>
+    <div class="slide"></div>
+    <header>
+        -: THESE ARE THE SLIDING IMAGES :-
+    </header>
+    <img src="/VS Code/Web Dev/practice/cap sheild.png" height="50px" class="sheild" alt="">
+    <div class="container">
+        <img class="box1" src="/VS Code/Web Dev/practice/1.jpg" alt="" height="400px">
+        <img class="box2" src="/VS Code/Web Dev/practice/2.jpg" alt="" height="400px">
+        <img class="box3" src="/VS Code/Web Dev/practice/3.jpg" alt="" height="400px">
+        <img class="box4" src="/VS Code/Web Dev/practice/4.jpg" alt="" height="400px">
+        <img class="box5" src="/VS Code/Web Dev/practice/5.jpg" alt="" height="400px">
+        <img class="box6" src="/VS Code/Web Dev/practice/6.jpg" alt="" height="400px">
+    </div>
+</body>
+</html>

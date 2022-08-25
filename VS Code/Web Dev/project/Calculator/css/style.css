@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Aboreto', cursive;
+}
+
+.button {
+    padding: 17px;
+    margin: 0px 5px;
+    border: 0px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    
+    width: 65px;
+}
+
+.row {
+    margin: 5px 0px;
+}
+
+.row input {
+    padding: 5px 10px;
+    margin: 0px 0;
+    border: 0.1px solid black;
+    border-radius: 9px;
+    font-size: 18px;
+    width: 278px;
+    color: #050c62;
+}
+.button:hover{
+    background-color: pink;
+}
+
+.container{
+    padding: 15px 0;
+    width: 370px;
+    border: 5px solid black;
+    border-radius: 65px;
+}

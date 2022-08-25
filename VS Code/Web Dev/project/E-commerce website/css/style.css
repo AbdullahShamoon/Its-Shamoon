@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+nav div input {
+    width: 30vw;
+    height: 7vh;
+    border-radius: 11px;
+    margin: 0px 10px 0 4vw;
+    padding: 0 20px;
+}
+
+nav div button {
+    font-family: 'Domine', serif;
+    font-weight: 600;
+}
+
+.slider {
+    width: 73vw;
+    margin: 10px auto;
+
+}
+
+
+nav ul li {
+    list-style: none;
+    padding: 0px 20px;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    /* color: blue; */
+    font-weight: bold;
+}
+
+.logo {
+    height: 30px;
+}
+
+main {
+    font-family: 'Domine', serif;
+    font-size: 20px;
+}
+
+.container {
+
+    min-height: calc(100vh - 10vh - 11vh);
+}
+
+.my-2{
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    max-width: 85vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px 20px;
+}
+
+.lines {
+    width: 160px
+}
+
+footer {
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: 'Domine', serif;
+
+}

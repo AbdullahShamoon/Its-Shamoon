@@ -1,0 +1,12 @@
+@media screen and (max-width:1155px) {
+
+    nav{
+        flex-wrap: wrap;
+    }
+    nav div input{
+        width: 30vw;
+    }
+    .card{
+        overflow: scroll;
+    }
+}
